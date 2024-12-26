@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="login-container">
+        <h1>Chitter</h1>
+        <form id="registerForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="password" required>
+            <button type="submit">register / Login</button></button>
+        </form>
+    </div>
+
+    <div id="chat-container" class="hidden"></div>
+    <header>
+        <h1><i>Chitter</i></i></h1>
+        <button id="logout">Logout</button>
+    </header>
+    <div id="messages">
+        <!-- Chat messages will appear here-->
+    </div>
+
+    <form id="messageForm">
+        <textarea id="messageInput" placeholder="Type ypur message..." required></textarea>
+        <button type="submit"></button>Send</button>
+    </form>
+
+    <div id="location-container">
+        <button id="togglelocation">Activate Live Location</button>
+        <p id="locationStatus"></p>
+    </div>
+    <scrip src="script.js"></scrip>
+
+</body>
+</html>
